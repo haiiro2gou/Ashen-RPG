@@ -18,7 +18,7 @@
 * [Datapack Template](https://github.com/ChenCMD/Datapack-Template) ([CC0-1.0 Universal](https://github.com/Chen_CMD/Datapack) / Copyright by Chen_CMD)
 * [OhMyDat](OhMyDat)ディレクトリ ([MIT License](OhMyDat/LICENSE) / Copyright by 赤石愛)
 * [ScoreToHealth](ScoreToHealth)ディレクトリ ([Apache-2.0 License](ScoreToHealth/LICENSE) / Copyright by 赤石愛)
-* [ScoreToMove](ScoreToMove)ディレクトリ ([CC0-1.0 Universal](ScoreToMove/LICENSE) / Copyright by 赤石愛)
+* [ScoreToMove](https://github.com/Ai-Akaishi/ScoreToMove) ([CC0-1.0 Universal](ScoreToMove/LICENSE) / Copyright by 赤石愛)
 
 ## 機能 (WIP)
 
