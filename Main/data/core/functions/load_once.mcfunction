@@ -5,9 +5,9 @@
 # @within function core:load
 
 #> バージョン情報の設定と通知
-data modify storage global Version.Major set value 0
-data modify storage global Version.Minor set value 1
-data modify storage global Version.Patch set value 0
+data modify storage global Version[0] set value 0
+data modify storage global Version[1] set value 1
+data modify storage global Version[2] set value 0
 tellraw @a {"color":"green","translate": "Updated load version to %s1%s4%s2%s4%s3","with": [{"storage": "global","nbt":"Version.Major","color": "aqua"},{"storage": "global","nbt":"Version.Minor","color": "aqua"},{"storage": "global","nbt":"Version.Patch","color": "aqua"},{"text": ".","color": "aqua"}]}
 
 
