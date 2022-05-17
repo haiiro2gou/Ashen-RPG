@@ -5,8 +5,10 @@
 # @within function core:load
 
 #> バージョン情報の設定と通知
-data modify storage global Version set value 1
-tellraw @a [{"text": "Updated load version to ", "color": "green"},{"storage": "global","nbt":"Version","color": "aqua"}]
+data modify storage global Version.Major set value 0
+data modify storage global Version.Minor set value 1
+data modify storage global Version.Patch set value 0
+tellraw @a {"color":"green","translate": "Updated load version to %s1%s4%s2%s4%s3","with": [{"storage": "global","nbt":"Version.Major","color": "aqua"},{"storage": "global","nbt":"Version.Minor","color": "aqua"},{"storage": "global","nbt":"Version.Patch","color": "aqua"},{"text": ".","color": "aqua"}]}
 
 
 #> forceload chunks
@@ -28,7 +30,7 @@ datapack enable "ScoreToHealth" after "Main"
 datapack enable "OhMyDat" after "ScoreToHealth"
 
 
-#> エイリアスの登録とシャルカーボックスのsetblock
+#> エイリアスの登録とシュルカーボックスのsetblock
 # @public
     #alias vector shulkerA 10000 0 10000
     #alias vector shulkerB 10000 1 10000
