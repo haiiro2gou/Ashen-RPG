@@ -15,4 +15,4 @@ execute if score @s SaveID matches 6 run data modify storage oh_my_dat: _[-4][-4
 execute if score @s SaveID matches 7 run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Profiles.Profile[7] set from entity @s
 execute if score @s SaveID matches 8 run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Profiles.Profile[8] set from entity @s
 
-tag remove @s Saving
+tag @s remove Saving
