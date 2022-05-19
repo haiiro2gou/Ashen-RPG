@@ -16,14 +16,14 @@
 # execute if score @s SaveID matches 8 run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Profiles.Profile[8] set from entity @s
 
 #> Profile_ID仕分け
-execute if score @s SaveID matches 0 run function core:player/saves/0
-execute if score @s SaveID matches 0 run function core:player/saves/1
-execute if score @s SaveID matches 0 run function core:player/saves/2
-execute if score @s SaveID matches 0 run function core:player/saves/3
-execute if score @s SaveID matches 0 run function core:player/saves/4
-execute if score @s SaveID matches 0 run function core:player/saves/5
-execute if score @s SaveID matches 0 run function core:player/saves/6
-execute if score @s SaveID matches 0 run function core:player/saves/7
-execute if score @s SaveID matches 0 run function core:player/saves/8
+execute if score @s SaveID matches 0 run function core:player/saves/save/0
+execute if score @s SaveID matches 0 run function core:player/saves/save/1
+execute if score @s SaveID matches 0 run function core:player/saves/save/2
+execute if score @s SaveID matches 0 run function core:player/saves/save/3
+execute if score @s SaveID matches 0 run function core:player/saves/save/4
+execute if score @s SaveID matches 0 run function core:player/saves/save/5
+execute if score @s SaveID matches 0 run function core:player/saves/save/6
+execute if score @s SaveID matches 0 run function core:player/saves/save/7
+execute if score @s SaveID matches 0 run function core:player/saves/save/8
 
 tag @s remove Saving
