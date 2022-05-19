@@ -18,3 +18,6 @@
     execute if entity @s[advancements={core:handler/inventory_change=true}] run function core:handler/inventory_change
     execute if entity @s[advancements={core:handler/using_item=true}] run function core:handler/using_item
     execute if entity @s[scores={ClickCarrotEvent=1..}] run function core:handler/click.carrot
+    
+# Player処理
+    execute as @e[type=player] run function core:player/
