@@ -6,8 +6,8 @@
 
 #> Profile_IDを取得
 tag @s remove save
-execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Profiles.Now score int 1 run scoreboard players get @s Profile_ID
-scoreboard players set @s Profile_ID -1
+execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Profiles.Now score int 1 run scoreboard players get @s Save_ID
+scoreboard players set @s Save_ID
 
 #> Profile_IDに応じて保存
 execute if data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Profiles.Now 0 run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Profiles.Profile[0] set from entity @s
