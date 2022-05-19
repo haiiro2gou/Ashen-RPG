@@ -1,0 +1,18 @@
+name: Manual Deploy
+on:
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: "ref"
+        required: false
+        default: ""
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - run: git checkout ${{ github.event.inputs.ref }}
+        if: ${{ github.event.inputs.ref != '' }}
