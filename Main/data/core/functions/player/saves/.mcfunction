@@ -14,4 +14,4 @@ execute as @s[tag=Loading] run function core:player/saves/load/
 
 #> manage
 #declare tag SaveManage
-#execute as @s[tag=SaveManage] run function core:player/saves/view
+execute as @s[tag=SaveManage] run function core:player/saves/manage
