@@ -6,7 +6,7 @@
 
 #> save
 #declare tag Saving
-execute as @s[tag=Saving] run function core:player/saves/save
+execute as @s[tag=Saving] run function core:player/saves/save/
 
 #> load
 #declare tag Loading
