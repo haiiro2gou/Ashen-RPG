@@ -2,7 +2,7 @@
 #
 # #プレイヤーデータをセーブします
 #
-# @api
+# @public
 
 #> Profile_IDを取得
 #define tag Saving
