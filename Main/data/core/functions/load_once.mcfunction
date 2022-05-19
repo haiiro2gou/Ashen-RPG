@@ -80,6 +80,7 @@ summon marker 0.0 0.0 0.0 {UUID:[I;0,0,0,0]}
     # @public
         scoreboard objectives add UserID dummy {"text":"汎用固有ユーザーID"}
         scoreboard objectives add SaveID dummy {"text":"セーブデータID"}
+        scoreboard objectives add LoadID dummy {"text":"データロードID"}
 
     #> イベントハンドラ用スコアボード
     # @within function
