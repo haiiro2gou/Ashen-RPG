@@ -4,6 +4,12 @@
 #
 # @within function core:player/
 
-# save
+#> save
 #declare tag Saving
 execute as @s[tag=Saving] run function core:player/saves/save
+
+#> load
+execute as @s[tag=Loading] run function core:player/saves/load
+
+#> manage
+execute as @s[tag=SaveManage] run function core:player/saves/view
