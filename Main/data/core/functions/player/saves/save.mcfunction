@@ -2,7 +2,7 @@
 #
 # #プレイヤーデータをセーブします
 #
-# @public
+# @within function core:player/saves/
 
 #> Profile_IDに応じて保存
 execute if score @s SaveID matches 0 run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Profiles.Profile[0] set from entity @s
