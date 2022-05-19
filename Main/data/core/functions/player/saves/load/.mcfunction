@@ -14,3 +14,5 @@ execute if score @s LoadID matches 5 run function core:player/saves/load/5
 execute if score @s LoadID matches 6 run function core:player/saves/load/6
 execute if score @s LoadID matches 7 run function core:player/saves/load/7
 execute if score @s LoadID matches 8 run function core:player/saves/load/8
+
+tag @s remove Loading
