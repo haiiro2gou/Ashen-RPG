@@ -2,6 +2,6 @@
 #
 # 1番セーブデータ保存
 #
-# @within core:/player/saves/save/
+# @within core:player/saves/save/
 
 #> 1番呼び出し
