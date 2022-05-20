@@ -2,6 +2,6 @@
 #
 # 8番セーブデータ読み込み
 #
-# @within core:/player/saves/load/
+# @within core:player/saves/load/
 
 #> 8番呼び出し
