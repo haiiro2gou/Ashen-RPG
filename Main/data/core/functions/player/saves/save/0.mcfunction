@@ -2,7 +2,7 @@
 #
 # 0番セーブデータ保存
 #
-# @within core:/player/saves/save/
+# @within core:player/saves/save/
 
 #> プレイヤーデータ読み出し
 # function api:data_get/foo
