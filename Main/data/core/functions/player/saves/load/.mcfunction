@@ -18,7 +18,7 @@ execute if score @s LoadID matches 8 run function core:player/saves/load/8
 #> 書き込み
 # function core:player/saves/load/nbt/abilities
 # function core:player/saves/load/nbt/absorption_amount
-function core:player/saves/load/nbt/active_effects
+# Attributes
 # function core:player/saves/load/nbt/air
 function core:player/saves/load/nbt/attributes
 # # function core:player/saves/load/nbt/brain
@@ -32,10 +32,10 @@ function core:player/saves/load/nbt/ender_items
 # function core:player/saves/load/nbt/fall_distance
 # function core:player/saves/load/nbt/fall_flying
 # function core:player/saves/load/nbt/fire
-# function core:player/saves/load/nbt/food_exhaustion_level
-function core:player/saves/load/nbt/food_level
-function core:player/saves/load/nbt/food_saturation_level
-# function core:player/saves/load/nbt/food_tick_timer
+# FoodExhaustionLevel
+# FoodLevel
+# FoodSaturationLevel
+# FoodTickTimer
 # # function core:player/saves/load/nbt/glowing
 function core:player/saves/load/nbt/health
 # function core:player/saves/load/nbt/hurt_time
@@ -78,5 +78,11 @@ function core:player/saves/load/nbt/team
 # function core:player/saves/load/nbt/xp_p
 # function core:player/saves/load/nbt/xp_seed
 # function core:player/saves/load/nbt/xp_total
+
+#> potion
+#declare tag LoadPot
+execute as @s run summon potion ~ ~ ~ {Tags:["LoadPot"]}
+function core:player/saves/load/nbt/active_effects
+function core:player/saves/load/nbt/food_level
 
 tag @s remove Loading
