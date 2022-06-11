@@ -16,6 +16,7 @@
 ## 免責事項
 このリポジトリでは、以下のコンテンツ・ディレクトリを除いて[Apache License, Version 2.0](LICENSE)が適用されます。
 * [Datapack Template](https://github.com/ChenCMD/Datapack-Template) ([CC0-1.0 Universal](https://github.com/Chen_CMD/Datapack) / Copyright by Chen_CMD)
+* [NaturalMergeSort](https://github.com/Ai-Akaishi/NaturalMergeSort) ([MIT License](NaturalMergeSort/LICENSE) / Copyright by 赤石愛)
 * [OhMyDat](OhMyDat)ディレクトリ ([MIT License](OhMyDat/LICENSE) / Copyright by 赤石愛)
 * [ScoreToHealth](ScoreToHealth)ディレクトリ ([Apache-2.0 License](ScoreToHealth/LICENSE) / Copyright by 赤石愛)
 * [ScoreToMove](https://github.com/Ai-Akaishi/ScoreToMove) ([CC0-1.0 Universal](ScoreToMove/LICENSE) / Copyright by 赤石愛)
@@ -30,5 +31,6 @@
 
 #### [赤石愛](https://twitter.com/AiAkaishi)氏
 * [Oh! My Dat!](https://github.com/Ai-Akaishi/OhMyDat)
+* [NaturalMergeSort](https://github.com/Ai-Akaishi/NaturalMergeSort)
 * [ScoreToHealth](https://github.com/Ai-Akaishi/ScoreToHealth)
 * [ScoreToMove](https://github.com/Ai-Akaishi/ScoreToMove)
