@@ -7,7 +7,7 @@
 #> プレイヤーデータ読み出し
 # function api:data_get/abilities
 # function api:data_get/absorption_amount
-function api:data_get/active_effects
+# function api:data_get/active_effects
 # function api:data_get/air
 # function api:data_get/attributes
 # # function api:data_get/brain
@@ -144,4 +144,4 @@ execute if score @s SaveID matches 7 run data modify storage oh_my_dat: _[-4][-4
 execute if score @s SaveID matches 8 run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Profiles[8] set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Temp.api
 
 tag @s remove Saving
-data remove storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Temp.api
+data remove storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Temp
