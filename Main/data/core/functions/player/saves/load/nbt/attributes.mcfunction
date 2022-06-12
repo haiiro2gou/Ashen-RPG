@@ -2,6 +2,8 @@
 #
 # loadに基づいてattributesを設定します
 #
+# @input storage oh_my_dat: .Temp.api.Attributes
+# @output as player
 # @within function core:player/saves/load/
 
 #> attribute設定

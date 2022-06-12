@@ -2,14 +2,17 @@
 #
 # ロードしたファイルに基づいて満腹度を設定します
 #
+# @input storage oh_my_dat: .Temp.api.FoodLevel
+# @input storage oh_my_dat: .Temp.api.FoodSaturationLevel
+# @output as player
 # @within function core:player/saves/load/
 
 #> food_level
 # @private
 #declare score_holder $FoodLevel
 #declare score_holder $FoodSaturationLevel
-execute store result score $FoodLevel Temporary run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Profile.FoodLevel 1
-execute store result score $FoodSaturationLevel Temporary run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Profile.FoodLevel 1
+execute store result score $FoodLevel Temporary run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Temp.api.FoodLevel 1
+execute store result score $FoodSaturationLevel Temporary run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Temp.api.FoodSaturationLevel 1
 scoreboard players operation $FoodLevel Temporary += $FoodSaturationLevel Temporary
 effect give @s saturation 1 19 true
 execute if score $FoodLevel Temporary matches 39 run data merge entity @e[tag=LoadPot,limit=1] {Item:{id:"splash_potion",Count:1b,tag:{CustomPotionEffects:[{Id:17b,Amplifier:0b,Duration:1}]}}}

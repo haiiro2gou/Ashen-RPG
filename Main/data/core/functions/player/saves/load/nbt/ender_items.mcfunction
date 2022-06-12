@@ -2,10 +2,12 @@
 #
 # loadに基づいてender_itemsを設定します
 #
+# @input storage oh_my_dat: .Temp.api.EnderItems
+# @output as player
 # @within function core:player/saves/load/
 
 #> Enderchest
-data modify block 10000 0 10000 Items set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Profile.EnderItems
+data modify block 10000 0 10000 Items set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Temp.api.Inventory
 item replace entity @s enderchest.0 from block 10000 0 10000 container.0
 item replace entity @s enderchest.1 from block 10000 0 10000 container.1
 item replace entity @s enderchest.2 from block 10000 0 10000 container.2
