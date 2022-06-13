@@ -6,3 +6,4 @@
 # @within core:player/saves/manage/
 
 #> Profile Deleter (WIP)
+tellraw @s {"text": "This feature is currently work in progress."}
