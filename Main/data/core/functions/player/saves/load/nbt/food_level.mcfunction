@@ -9,8 +9,9 @@
 
 #> food_level
 # @private
-#declare score_holder $FoodLevel
-#declare score_holder $FoodSaturationLevel
+    #declare tag LoadPot
+    #declare score_holder $FoodLevel
+    #declare score_holder $FoodSaturationLevel
 execute store result score $FoodLevel Temporary run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Temp.api.FoodLevel 1
 execute store result score $FoodSaturationLevel Temporary run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Temp.api.FoodSaturationLevel 1
 scoreboard players operation $FoodLevel Temporary += $FoodSaturationLevel Temporary

@@ -80,6 +80,7 @@ function core:player/saves/load/nbt/tags
 # function core:player/saves/load/nbt/xp_total
 
 #> potion
+#@private
 #declare tag LoadPot
 execute as @s run summon potion ~ ~ ~ {Tags:["LoadPot"]}
 # function core:player/saves/load/nbt/active_effects
