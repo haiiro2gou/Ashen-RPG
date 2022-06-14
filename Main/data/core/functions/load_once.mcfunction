@@ -23,11 +23,17 @@ function core:define_gamerule
 #> Datapackの順序の明示的設定
 # 0: Main
 # 1: ScoreToHealth
-# 2: OhMyDat
+# 2: DamageIndicator
+# 3: OhMyDat
+# 4: NaturalMergeSort
+datapack disable "DamageIndicator"
+datapack disable "NaturalMergeSort"
 datapack disable "OhMyDat"
 datapack disable "ScoreToHealth"
 datapack enable "ScoreToHealth" after "Main"
-datapack enable "OhMyDat" after "ScoreToHealth"
+datapack enable "DamageIndicator" after "ScoreToHealth"
+datapack enable "OhMyDat" after "DamageIndicator"
+datapack enable "NaturalMergeSort" after "OhMyDat"
 
 
 #> エイリアスの登録とシュルカーボックスのsetblock
