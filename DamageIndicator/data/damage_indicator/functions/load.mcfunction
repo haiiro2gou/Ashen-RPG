@@ -4,4 +4,5 @@
 #
 # @within tag/function minecraft:load
 
-# scoreboard
+# load_once呼び出し
+execute unless storage global {Version:[0,1,0]} run function damage_indicator/load_once
