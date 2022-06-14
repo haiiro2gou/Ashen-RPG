@@ -1,0 +1,32 @@
+{
+    "description": "non-Undead Mobs (No Boss)",
+    "values": {
+        "minecraft:axolotl",
+        "minecraft:bat",
+        "minecraft:bee",
+        "minecraft:blaze",
+        "minecraft:cat",
+        "minecraft:cave_spider",
+        "minecraft:chicken",
+        "minecraft:cod",
+        "minecraft:cow",
+        "minecraft:creeper",
+        "minecraft:dolphin",
+        "minecraft:donkey",
+        "minecraft:elder_guardian",
+        "minecraft:enderman",
+        "minecraft:endermite",
+        "minecraft:evoker",
+        "minecraft:fox",
+        "minecraft:ghast",
+        "minecraft:giant",
+        "minecraft:glow_squid",
+        "minecraft:goat",
+        "minecraft:guardian",
+        "minecraft:hoglin",
+        "minecraft:horse",
+        "minecraft:illusioner",
+        "minecraft:iron_golem",
+        "minecraft:llama"
+    ]
+}
