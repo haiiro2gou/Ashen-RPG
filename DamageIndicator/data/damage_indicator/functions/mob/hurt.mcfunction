@@ -14,7 +14,7 @@
 # Healthを元に戻す
     data modify entity @s Health set value 512.0f
 # HP表示
-    function damage_indicator:health_display/apply/
+    function damage_indicator:health_display/apply
 # ダメージ表示
     function damage_indicator:dmg_indicator/
 # 毒エフェクトかつmh.hp=1の時の処理...。
