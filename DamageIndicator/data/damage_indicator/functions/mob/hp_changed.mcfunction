@@ -1,3 +1,9 @@
+#> damage_indicator:mob/hp_changed
+#
+# HP変更検知
+#
+# @within damage_indicator:mob/hp_changed
+
 # オオカミだけバグる(違う実装するかなぁ)
 # モブHPデータの取得
     execute store result score $Health Temporary run data get entity @s Health
