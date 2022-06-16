@@ -11,7 +11,7 @@
 
 # 大きなダメージで死なないようHPを1024に設定(スコアでHPを管理)
     data modify entity @s Attributes append value {Name:"minecraft:generic.max_health",Base:1024.0d}
-    scoreboard players set @s ScoreToHealth 512000
+    data modify entity @s Health set value 512.0f
 
 #> Initタグ付け
 #@public
