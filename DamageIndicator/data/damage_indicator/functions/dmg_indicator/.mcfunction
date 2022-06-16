@@ -4,11 +4,6 @@
 #
 # @within function damage_indicator:mob/hurt
 
-#> tag
-# @public
-    #declare score_holder $Health
-    #declare score_holder $DmgColor
-
 #> ダメージ表示
     scoreboard players remove $Health Temporary 512
 
