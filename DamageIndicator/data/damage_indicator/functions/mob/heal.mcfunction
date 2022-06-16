@@ -10,8 +10,8 @@
     scoreboard players operation $Heal Temporary = $Health Temporary
     scoreboard players remove $Heal Temporary 512
 # 回復量分のスコア加算
-    scoreboard players operation @s mh.hp += $Heal Temporary
-    execute if score @s mh.hp >= @s mh.hp_max run scoreboard players operation @s mh.hp = @s mh.hp_max
+    scoreboard players operation @s Health += $Heal Temporary
+    execute if score @s Health >= @s MaxHealth run scoreboard players operation @s Health = @s MaxHealth
 # Healthを元に戻す
     data modify entity @s Health set value 512.0f
 # HP表示
