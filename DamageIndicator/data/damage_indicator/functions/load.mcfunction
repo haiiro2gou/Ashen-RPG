@@ -6,6 +6,6 @@
 
 say reload
 # スコア定義
-    scoreboard objectives add mh.hp dummy
-    scoreboard objectives add mh.hp_max dummy
-    scoreboard objectives add mh.hp_ratio dummy
+    scoreboard objectives add Health dummy
+    scoreboard objectives add MaxHealth dummy
+    scoreboard objectives add HpRatio dummy
