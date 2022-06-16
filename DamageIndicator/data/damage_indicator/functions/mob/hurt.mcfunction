@@ -18,6 +18,7 @@
 # ダメージ表示
     function damage_indicator:dmg_indicator/
 # 毒エフェクトかつmh.hp=1の時の処理...。
-    
+
+
 # mh.hp<0で死亡処理
     execute if score @s mh.hp matches ..0 run kill @s
