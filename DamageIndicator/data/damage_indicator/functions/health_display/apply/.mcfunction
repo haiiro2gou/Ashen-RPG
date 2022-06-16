@@ -1,4 +1,4 @@
-#> damage_indicator:health_display/apply
+#> damage_indicator:health_display/apply/
 #
 # HP表示
 #
