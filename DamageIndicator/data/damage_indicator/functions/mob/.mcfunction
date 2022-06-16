@@ -5,8 +5,6 @@
 # @within function damage_indicator:tick/
 
 # モブ召喚時に初期処理
-#> @private
-    #declare tag Init
     execute if entity @s[tag=!Init] run function damage_indicator:mob/init
 # HPが変更された時の検知
     execute unless data entity @s {Health:512.0f} run function damage_indicator:mob/hp_changed
