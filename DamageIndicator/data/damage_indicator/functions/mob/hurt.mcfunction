@@ -10,7 +10,7 @@
     scoreboard players operation $Damage Temporary = $Health Temporary
     scoreboard players remove $Damage Temporary 512
 # ダメージ分のスコア減算
-    scoreboard players operation @s mh.hp += $Damage Temporary
+    scoreboard players operation @s Health += $Damage Temporary
 # Healthを元に戻す
     data modify entity @s Health set value 512.0f
 # HP表示
@@ -21,4 +21,4 @@
 
 
 # mh.hp<0で死亡処理
-    execute if score @s mh.hp matches ..0 run kill @s
+    execute if score @s Health matches ..0 run kill @s
