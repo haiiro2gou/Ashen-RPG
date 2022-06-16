@@ -13,7 +13,7 @@
         data modify entity @s CustomNameVisible set value 1b
     # 名前=値
         data modify entity @s CustomName set from entity @s Item.tag.display.Name
-        
+
 #> タグ付け
 # @private
     #declare tag DmgDisplay
