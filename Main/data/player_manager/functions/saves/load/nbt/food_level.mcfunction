@@ -1,11 +1,11 @@
-#> core:player/saves/load/nbt/food_level
+#> player_manager:saves/load/nbt/food_level
 #
 # ロードしたファイルに基づいて満腹度を設定します
 #
 # @input storage oh_my_dat: .Temp.api.FoodLevel
 # @input storage oh_my_dat: .Temp.api.FoodSaturationLevel
 # @output as player
-# @within function core:player/saves/load/
+# @within function player_manager:saves/load/
 
 #> food_level
 # @private
