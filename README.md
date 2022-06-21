@@ -8,7 +8,7 @@
 [![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg)](https://gitmoji.carloscuesta.me/)
 
 ## 免責事項
-このリポジトリでは、以下のコンテンツ・ディレクトリを除いて[Apache License, Version 2.0](LICENSE)が適用されます。
+このリポジトリでは、以下のコンテンツ・ディレクトリを除いて[CC0-1.0 Universal](LICENSE)が適用されます。
 * [Datapack Template](https://github.com/ChenCMD/Datapack-Template) ([CC0-1.0 Universal](https://github.com/Chen_CMD/Datapack) / Copyright by Chen_CMD)
 * [OhMyDat](OhMyDat)ディレクトリ ([MIT License](OhMyDat/LICENSE) / Copyright by 赤石愛)
 * [ScoreToHealth](ScoreToHealth)ディレクトリ ([Apache-2.0 License](ScoreToHealth/LICENSE) / Copyright by 赤石愛)
