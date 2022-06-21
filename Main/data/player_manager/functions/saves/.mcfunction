@@ -4,14 +4,24 @@
 #
 # @within function player_manager:
 
-#> save
-#declare tag Saving
-execute as @s[tag=Saving] run function player_manager:saves/save/
+#>
+# please
+    function oh_my_dat:please
 
-#> load
-#declare tag Loading
-execute as @s[tag=Loading] run function player_manager:saves/load/
+#> 
+# save
+# @private
+    #declare tag Saving
+    execute as @s[tag=Saving] run function player_manager:saves/save/
 
-#> manage
-#declare tag SaveManage
-execute as @s[tag=SaveManage] run function player_manager:saves/manage/
+#> 
+# load
+# @private
+    #declare tag Loading
+    execute as @s[tag=Loading] run function player_manager:saves/load/
+
+#> 
+# manage
+# @private
+    #declare tag SaveManage
+    execute as @s[tag=SaveManage] run function player_manager:saves/manage/
