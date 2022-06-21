@@ -1,5 +1,4 @@
 #> player_manager:_index.d
-# @private
 
 #> Save Management Tags
 #@public
