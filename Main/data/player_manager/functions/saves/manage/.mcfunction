@@ -39,6 +39,7 @@ scoreboard players reset $Profile
 #@private
     #declare tag Close
     #declare tag Delete
+    #declare tag SaveManage
 execute as @s[tag=Close] run tag @s remove SaveManage
 execute as @s[tag=Close] run tag @s remove Close
 execute as @s[tag=Delete] run function player_manager:saves/manage/delete
