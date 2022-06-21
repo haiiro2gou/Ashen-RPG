@@ -20,4 +20,4 @@
     execute if entity @s[scores={ClickCarrotEvent=1..}] run function core:handler/click.carrot
 
 # Player処理
-    execute as @e[type=player] run function core:player/
+    execute as @e[type=player] run function player_manager:
