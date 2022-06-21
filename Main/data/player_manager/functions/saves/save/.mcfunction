@@ -1,8 +1,8 @@
-#> core:player/saves/save/
+#> player_manager:saves/save/
 #
 # #プレイヤーデータをセーブします
 #
-# @within function core:player/saves/
+# @within function player_manager:saves/
 
 #> プレイヤーデータ読み出し
 # function api:data_get/abilities
