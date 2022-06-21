@@ -1,10 +1,10 @@
-#> core:player/saves/manage/view
+#> player_manager:saves/manage/view
 #
 # 選択したファイルデータを表示
 #
 # @input storage Temp.api
 # @output as player tellraw
-# @within core:player/saves/manage/
+# @within player_manager:saves/manage/
 
 #> profile viewer (WIP)
 #@private

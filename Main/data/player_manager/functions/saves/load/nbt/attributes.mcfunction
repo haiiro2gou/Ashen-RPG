@@ -1,10 +1,10 @@
-#> core:player/saves/load/nbt/attributes
+#> player_manager:saves/load/nbt/attributes
 #
 # loadに基づいてattributesを設定します
 #
 # @input storage oh_my_dat: .Temp.api.Attributes
 # @output as player
-# @within function core:player/saves/load/
+# @within function player_manager:saves/load/
 
 #> attribute設定
 # attribute @s generic.armor base set 0

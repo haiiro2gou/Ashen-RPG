@@ -1,10 +1,10 @@
-#> core:player/saves/load/nbt/ender_items
+#> player_manager:saves/load/nbt/ender_items
 #
 # loadに基づいてender_itemsを設定します
 #
 # @input storage oh_my_dat: .Temp.api.EnderItems
 # @output as player
-# @within function core:player/saves/load/
+# @within function player_manager:saves/load/
 
 #> Enderchest
 data modify block 10000 0 10000 Items set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Temp.api.Inventory
