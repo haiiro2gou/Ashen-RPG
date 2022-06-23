@@ -1,6 +1,6 @@
 #> lib:random/
 #
-# 0-65535の乱数を返します。
+# 0-65534の乱数を返します。
 #
 # @output result score uShort
 # @api
