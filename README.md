@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/github/v/release/haiiro2gou/Ashen-RPG-Core.svg)](https://github.com/haiiro2gou/Ashen-RPG-Core/releases)
 [![activity](https://img.shields.io/github/commit-activity/m/haiiro2gou/Ashen-RPG-Core?label=commit&logo=github)](https://github.com/haiiro2gou/Ashen-RPG-Core/commits/main)
 [![LastUpdate](https://img.shields.io/github/last-commit/haiiro2gou/Big-Number-Calculator.svg)](https://github.com/haiiro2gou/Big-Number-Calculator)
-[![workflow](https://img.shields.io/github/workflow/status/haiiro2gou/Ashen-RPG-Core/lint-datapack/main?label=linter)](https://github.com/haiiro2gou/Ashen-RPG-Core/actions?query=workflow%3Alint-datapack)
+[![workflow](https://img.shields.io/github/actions/workflow/status/haiiro2gou/Ashen-RPG-Core/datapack-linter.yml?branch=master&label=linter)](https://github.com/haiiro2gou/Ashen-RPG-Core/actions?query=workflow%3Alint-datapack)
 [![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg)](https://gitmoji.carloscuesta.me/)
 
 <!--- ## 開発環境
