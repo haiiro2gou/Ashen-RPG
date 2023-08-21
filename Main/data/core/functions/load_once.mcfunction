@@ -5,8 +5,10 @@
 # @within function core:load
 
 #> バージョン情報の設定と通知
-data modify storage global Version set value 1
-tellraw @a [{"text": "Updated load version to ", "color": "green"},{"storage": "global","nbt":"Version","color": "aqua"}]
+data modify storage global Version[0] set value 0
+data modify storage global Version[1] set value 1
+data modify storage global Version[2] set value 0
+tellraw @a {"color":"green","translate": "Updated load version to %s1%s4%s2%s4%s3","with": [{"storage": "global","nbt":"Version[0]","color": "aqua"},{"storage": "global","nbt":"Version[1]","color": "aqua"},{"storage": "global","nbt":"Version[2]","color": "aqua"},{"text": ".","color": "aqua"}]}
 
 
 #> forceload chunks
@@ -21,14 +23,20 @@ function core:define_gamerule
 #> Datapackの順序の明示的設定
 # 0: Main
 # 1: ScoreToHealth
-# 2: OhMyDat
+# 2: DamageIndicator
+# 3: OhMyDat
+# 4: NaturalMergeSort
+datapack disable "DamageIndicator"
+datapack disable "NaturalMergeSort"
 datapack disable "OhMyDat"
 datapack disable "ScoreToHealth"
 datapack enable "ScoreToHealth" after "Main"
-datapack enable "OhMyDat" after "ScoreToHealth"
+datapack enable "DamageIndicator" after "ScoreToHealth"
+datapack enable "OhMyDat" after "DamageIndicator"
+datapack enable "NaturalMergeSort" after "OhMyDat"
 
 
-#> エイリアスの登録とシャルカーボックスのsetblock
+#> エイリアスの登録とシュルカーボックスのsetblock
 # @public
     #alias vector shulkerA 10000 0 10000
     #alias vector shulkerB 10000 1 10000
@@ -77,6 +85,8 @@ summon marker 0.0 0.0 0.0 {UUID:[I;0,0,0,0]}
     #> UserID
     # @public
         scoreboard objectives add UserID dummy {"text":"汎用固有ユーザーID"}
+        scoreboard objectives add SaveID dummy {"text":"セーブデータID"}
+        scoreboard objectives add LoadID dummy {"text":"データロードID"}
 
     #> イベントハンドラ用スコアボード
     # @within function

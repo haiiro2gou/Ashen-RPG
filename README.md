@@ -7,14 +7,8 @@
 [![workflow](https://img.shields.io/github/actions/workflow/status/haiiro2gou/Ashen-RPG-Core/datapack-linter.yml?branch=master&label=linter)](https://github.com/haiiro2gou/Ashen-RPG-Core/actions?query=workflow%3Alint-datapack)
 [![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg)](https://gitmoji.carloscuesta.me/)
 
-<!--- ## 開発環境
-* [Visual Studio Code](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)
-* [Data-pack Helper Plus](https://github.com/SPGoding/datapack-language-server)
-* [MC Datapack Utility](https://github.com/ChenCMD/MC-Datapack-Utility)
-* [Gitmoji](https://marketplace.visualstudio.com/items?itemName=Vtrois.gitmoji-vscode) --->
-
 ## 免責事項
-このリポジトリでは、以下のコンテンツ・ディレクトリを除いて[Apache License, Version 2.0](LICENSE)が適用されます。
+このリポジトリでは、以下のコンテンツ・ディレクトリを除いて[CC0-1.0 Universal](LICENSE)が適用されます。
 * [Datapack Template](https://github.com/ChenCMD/Datapack-Template) ([CC0-1.0 Universal](https://github.com/Chen_CMD/Datapack) / Copyright by Chen_CMD)
 * [OhMyDat](OhMyDat)ディレクトリ ([MIT License](OhMyDat/LICENSE) / Copyright by 赤石愛)
 * [ScoreToHealth](ScoreToHealth)ディレクトリ ([Apache-2.0 License](ScoreToHealth/LICENSE) / Copyright by 赤石愛)
